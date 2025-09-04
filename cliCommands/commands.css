@@ -13,6 +13,7 @@ div{
 span{
     font-weight: bold;
     color: darkred;
+    background-color: lightslategray;
 }
 .table--div{
     display: inline-block;
