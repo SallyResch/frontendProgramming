@@ -1,0 +1,34 @@
+body{
+    background-color: lightsalmon;
+    text-align: center;
+}
+p{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(5, 0, 139);
+}
+div{
+    background-color: lightgreen;
+}
+span{
+    font-weight: bold;
+    color: darkred;
+}
+.table--div{
+    display: inline-block;
+    margin-top: 10px;
+    background-color: lightpink;
+}
+table, th, td {
+    border: 1px solid;
+    text-align: start;
+    border-radius: 5px;
+    margin: 2em;
+    padding: 5px;
+}
+.table--commands{
+    background-color: lightyellow;
+}
+.table--abbreviations{
+    background-color: lightcyan;
+}

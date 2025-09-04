@@ -1,0 +1,18 @@
+ClientCommands:
+cd ~
+mkdir "directory namne"
+rmdir "directory name"
+pwd
+touch "filename" (mac)
+echo > "filename" (my PC)
+rm "filename"
+code .
+start "the file you want to open"
+Terminal - commandline interface
+CSS - cascading style sheet
+URL - Universal Resource Locator
+Serverside - backend
+Clientside - Browser on local machine (frontend)
+Semantic naming: getbem.com
+Name things eventho css are not used for the element -> easier for next person that gonna look at the code.
+Mdn - Mozilla developer network
