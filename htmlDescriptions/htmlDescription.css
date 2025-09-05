@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 2em 0em 2em
+}
+.logo{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+}
+h1{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button{
+    background-color: orange;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button--about:hover{
+    background-color: black;
+    color: orange;
+    border: orange 3px solid;
+}
+.button--contact:hover{
+    background-color: black;
+    color: rgb(77, 255, 0);
+    border: rgb(77, 255, 0) 3px solid;
+}
+.mainContent{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+}
+.paragraf{
+    width: 360px;
+}
+.lists{
+    border: orange 3px solid;
+    padding: 20px;
+}

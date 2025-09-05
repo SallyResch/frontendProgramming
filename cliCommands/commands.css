@@ -1,21 +1,32 @@
 body{
-    background-color: lightsalmon;
+    background-color: black;
     text-align: center;
+}
+div{
+    background-color: lightgreen;
+}
+.header{
+    position: relative;
+}
+h1{
+    color: darkgreen;
+}
+.buttons{
+    position: absolute;
+    right: 20px;
+    top: 10px;
 }
 p{
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(5, 0, 139);
 }
-div{
-    background-color: lightgreen;
-}
 span{
     font-weight: bold;
     color: darkred;
     background-color: lightslategray;
 }
-.table--div{
+.tables{
     display: inline-block;
     margin-top: 10px;
     background-color: lightpink;
