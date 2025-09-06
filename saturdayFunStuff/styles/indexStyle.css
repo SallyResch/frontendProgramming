@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+.header{
+    background-color: blueviolet;
+}
+.mainContent{
+    background-color: chocolate;
+    padding-bottom: 20px;
+}
+.inputs{
+    background-color: yellow;
+    border: 3px solid green;
+}
+.checkboxes{
+    background-color: aqua;
+    border: 3px solid green;
+}
+
