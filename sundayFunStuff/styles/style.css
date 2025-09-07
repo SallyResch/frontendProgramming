@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(194, 255, 132);
+}
+.header{
+    position: sticky;
+    text-align: center;
+}
+.description{
+    text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 500px;
+  text-align: start;
+  margin: 20px;
+  background-color: rgb(128, 255, 0);
+}
+th, td{
+    padding: 5px;
+    background-color: rgb(194, 255, 132);
+}
+th{
+    text-transform: uppercase;
+}
