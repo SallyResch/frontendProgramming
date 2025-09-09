@@ -11,5 +11,12 @@ body{
 }
 .header__title{
     margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 3rem;
+}
+.main-content{
+    padding: 32px;
 }
 
