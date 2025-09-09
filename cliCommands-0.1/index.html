@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Client Commands 0.1</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
     <header class="header">
@@ -102,9 +103,9 @@
         </table>
         <table class="table table--boxModel">
             <tr>
-                <th>BoxModel</th>
+                <th>Box Model (and other stuff)</th>
                 <th>=</th>
-                <th>Explanation of boxmodel</th>
+                <th>Explanation of boxmodel (and other stuff)</th>
             </tr>
             <tr>
                 <td>Steps to build website</td>
@@ -117,35 +118,115 @@
                     </ol>
                 </td>
             </tr>
-                        <tr>
+            <tr>
+                <td>Semantic Elements</td>
+                <td>=</td>
+                <td>
+                    <ul>
+                        <li>header</li>
+                        <li>footer</li>
+                        <li>section</li>
+                        <li>article</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Headings</td>
+                <td>=</td>
+                <td>
+                    <ol>
+                        <li>There are 6 predefined headings</li>
+                        <li>h1 - h6</li>
+                        <li>They are block elements</li>
+                        <li>Browsers will apply default styling for headers unless you override it in your own CSS.</li>
+                        <li>All Pages should have ONE and only ONE h1 element for SEO purposes</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
                 <td>CSS</td>
                 <td>=</td>
-                <td>Cascading Style Sheet</td>
+                <td>
+                    Can be written in three ways, 
+                    BUT should only be used in its own file unless 
+                    its tailwind CSS
+                </td>
             </tr>
             <tr>
-                <td>HTTP</td>
+                <td>Colours</td>
                 <td>=</td>
-                <td>Hypertext Transfer Protocol</td>
+                <td>
+                    140 preNamed colours in CSS. CSS supports Hexadecimal
+                     colourcodes using a rr/gg/bb (red, green, blue) style. 
+                     That gives developers access to 16million colours.
+                </td>
             </tr>
             <tr>
-                <td>URL</td>
+                <td>ColourSchemeGenerator</td>
                 <td>=</td>
-                <td>Universal Resource Locator</td>
+                <td>http://coolors.co</td>
             </tr>
             <tr>
-                <td>SSR</td>
+                <td>Font Size</td>
                 <td>=</td>
-                <td>Serverside Rendering, Backend</td>
+                <td>rem (relative to the document root) or em (ephemeral style, relative to the parents fontsize)</td>
             </tr>
             <tr>
-                <td>CSR</td>
+                <td>Font Weight</td>
                 <td>=</td>
-                <td>Clientside rendering, Frontend, browser on local machine</td>
+                <td>How thick or thin the font is, values span from 100 to 900. predefined named values also excists.</td>
             </tr>
             <tr>
-                <td>MDN</td>
+                <td>Display property</td>
                 <td>=</td>
-                <td>Mozilla Developer Network</td>
+                <td>Every element has a default display property. 
+                    <ul>
+                        <li>divs, paragrafs and headings has block as default, takes up 100% width and hight is determined by their content</li>
+                        <li>Spans, anchor tags has inline as default. They only take up as much space as their content requires. 
+                            Width and height are ignored abd padding and margin are only relevant to the x-axis
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Width and Height</td>
+                <td>=</td>
+                <td>Block elements can take width and height properties (%, vw highly recommended). Block elements is by default relative to its parent. ex: width 50% (50% of the parents width). ViewWidth/Hight are relative to the size of the screensize</td>
+            </tr>
+            <tr>
+                <td>Display: inline-block</td>
+                <td>=</td>
+                <td>Combines both inline and block features. Will display inline but can take height and width properties. Padding and margin are applied on all sides. Width and height in % will be relative to the parent element</td>
+            </tr>
+            <tr>
+                <td>The box model</td>
+                <td>=</td>
+                <td>Box model describes the properties or layers that make up the total dimensions of any element in html and css. content, padding, border, margin</td>
+            </tr>
+            <tr>
+                <td>Content</td>
+                <td>=</td>
+                <td>Behaves differently depending on the display property. If not given a value it is always as heigh as it needs to be, but the width is either 100% of the parents width for block elements, or as wide as it needs to be for inline elements. Default the height and width only affect the content area.</td>
+            </tr>
+            <tr>
+                <td>Padding</td>
+                <td>=</td>
+                <td>Box model describes the properties or layers that make up the total dimensions of any element in html and css. content, padding, border, margin</td>
+            </tr>
+            <tr>
+                <td>Border</td>
+                <td>=</td>
+                <td>Box model describes the properties or layers that make up the total dimensions of any element in html and css. content, padding, border, margin</td>
+            </tr>
+            <tr>
+                <td>Margin</td>
+                <td>=</td>
+                <td>Box model describes the properties or layers that make up the total dimensions of any element in html and css. content, padding, border, margin</td>
+            </tr>
+            <tr>
+                <td>Box Sizing</td>
+                <td>=</td>
+                <td>Box model describes the properties or layers that make up the total dimensions of any element in html and css. content, padding, border, margin</td>
             </tr>
         </table>
     </div>
