@@ -1,2 +1,9 @@
-
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
 
