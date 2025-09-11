@@ -25,6 +25,9 @@ a:hover{
     color: green;
     border: 2px solid green;
 }
+.main-content{
+    height: 100vw;
+}
 .flex-container{
     display: flex;
 }
@@ -86,4 +89,19 @@ a:hover{
 }
 .jc-spaceBetween{
     justify-content: space-between;
+}
+.alignItems{
+    height: 300px;
+}
+.ai-center{
+    align-items: center;
+}
+.ai-end{
+    align-items:end;
+}
+.ai-start{
+    align-items:start;
+}
+.ai-normal{
+    align-items:normal;
 }
