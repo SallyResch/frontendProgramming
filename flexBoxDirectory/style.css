@@ -8,7 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+}
+.textColor{
+    color: whitesmoke;
 }
 a{
     background-color: green;
