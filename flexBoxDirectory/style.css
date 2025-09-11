@@ -1,1 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.header{
+    background-color: #beff7d;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+.flex-container{
+    display: flex;
+}
+.property{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    flex: 0 0 20%;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.property-result{
+    display: flex;
+    flex: 0 0 80%;
+}
+.ball{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.black{
+    background-color: black;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.column{
+    flex-direction: column;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+}
+.jc-center{
+    justify-content: center;
+}
+.jc-end{
+    justify-content: end;
+}
+.jc-spaceAround{
+    justify-content: space-around;
+}
+.jc-spaceBetween{
+    justify-content: space-between;
+}
