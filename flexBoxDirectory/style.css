@@ -69,6 +69,24 @@ a:hover{
 .black{
     background-color: black;
 }
+.one{
+    order: 1;
+}
+.two{
+    order: 1;
+}
+.three{
+    order: 1;
+}
+.four{
+    order: 2;
+}
+.five{
+    order: 1;
+}
+.six{
+    order: 0;
+}
 .row-reverse{
     flex-direction: row-reverse;
 }
@@ -105,21 +123,4 @@ a:hover{
 .ai-normal{
     align-items:normal;
 }
-.one{
-    order: 1;
-}
-.two{
-    order: 1;
-}
-.three{
-    order: 1;
-}
-.four{
-    order: 2;
-}
-.five{
-    order: 1;
-}
-.six{
-    order: 0;
-}
+
