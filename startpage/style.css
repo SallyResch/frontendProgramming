@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+    text-align: center;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.header{
+    background-color: aqua;
+    height: 150px;
+}
+.content{
+    display: flex;
+    flex-grow: 1;
+    height: 100%;
+}
+.sidebar{
+    background-color: aquamarine;
+    flex-basis: 25%;
+}
+.linkContainer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.mainContent{
+    background-color: blue;
+    flex-grow: 1;
+}
+.footer{
+    background-color: blueviolet;
+    height: 150px;
+}
