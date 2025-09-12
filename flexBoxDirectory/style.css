@@ -126,3 +126,6 @@ a:hover{
 .flex-wrap-wrap{
     flex-wrap: wrap;
 }
+.flex-wrap-wrap-reverse{
+    flex-wrap:wrap-reverse;
+}
