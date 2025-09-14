@@ -12,17 +12,21 @@ body{
     height: 100%;
 }
 .header{
-    background-color: aqua;
-    height: 150px;
+    background-color: #ffa500;
+    height: 90px;
 }
 .content{
     display: flex;
     flex-grow: 1;
     height: 100%;
 }
-.sidebar{
-    background-color: aquamarine;
-    flex-basis: 25%;
+.left-sidebar{
+    background-color: #ff4500;
+    flex-basis: 15%;
+}
+.right-sidebar{
+    background-color: #ff4500;
+    flex-basis: 15%;
 }
 .linkContainer{
     display: flex;
@@ -31,10 +35,10 @@ body{
     justify-content: space-between;
 }
 .mainContent{
-    background-color: blue;
+    background-color: #ffdea1;
     flex-grow: 1;
 }
 .footer{
-    background-color: blueviolet;
-    height: 150px;
+    background-color:#ffa500;
+    height: 90px;
 }
