@@ -100,7 +100,10 @@ a:hover{
     justify-content: center;
 }
 .jc-end{
-    justify-content: end;
+    justify-content: flex-end;
+}
+.jc-start{
+    justify-content: flex-start;
 }
 .jc-spaceAround{
     justify-content: space-around;
@@ -115,10 +118,10 @@ a:hover{
     align-items: center;
 }
 .ai-end{
-    align-items:end;
+    align-items:flex-end;
 }
 .ai-start{
-    align-items:start;
+    align-items:flex-start;
 }
 .ai-normal{
     align-items:normal;
