@@ -8,9 +8,9 @@
 .grid-parent{
     border: 1px solid black;
     display: grid;
-    /*grid-template-rows: 200px 250px 300px;
-    grid-template-columns: 25% 40% 35%;*/
-    grid-template: repeat(3, 200px) / repeat(3, calc(100% / 3));
+    gap: 16px;
+    grid-template: repeat(3, 200px) / repeat(4, calc((100% - 48px)/ 4));
+
 }
 .grid-parent > div{
     border: 1px solid orange;
