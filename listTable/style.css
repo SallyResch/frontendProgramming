@@ -74,6 +74,20 @@ body{
 .week-days li{
     display: inline-block;
 }
+.week-days.flex-horisontal{
+    display: flex;
+    justify-content:center;
+}
+.week-days.flex-horisontal > div{
+    border: 1px solid black;
+    padding: 10px;
+}
+.week-days.flex-vertical div::before{
+    content: "Day:";
+    display: inline;
+    padding: 10px;
+}
 .footer{
     background-color: var(--footer);
+    padding: 10px;
 }
