@@ -14,3 +14,6 @@
 .grid-parent > div{
     border: 1px solid orange;
 }
+.grid-parent > div:nth-child(even){
+    background-color: aquamarine;
+}
