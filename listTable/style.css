@@ -82,8 +82,12 @@ body{
     border: 1px solid black;
     padding: 10px;
 }
+.week-days.flex-vertical{
+    counter-reset: days;
+}
 .week-days.flex-vertical div::before{
-    content: "Day:";
+    counter-increment: days;
+    content: counter(days);
     display: inline;
     padding: 10px;
 }
