@@ -71,6 +71,9 @@ body{
 .orderd-list{
     list-style:georgian;
 }
+.week-days li{
+    display: inline-block;
+}
 .footer{
     background-color: var(--footer);
 }
