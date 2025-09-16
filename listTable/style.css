@@ -1,1 +1,38 @@
+:root {
+    --header: #3A86FF;
+    --footer: #8338EC;
+    --main-background: #FFBE0B;
+    --accentColor-1: #FB5607;
+    --accentColor-2: #FF006E;
+    --borderColor: #000000;
+  }
+*{
+    box-sizing: border-box;
+}
 
+body{
+    margin: 0;
+    background-color: var(--accentColor-2);
+}
+.header{
+    background-color: var(--header);
+    text-align: center;
+    padding: 24px;
+    text-transform: uppercase;
+}
+.header__title{
+    font-size: 2rem;
+}
+.header__subtitle{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.main-content{
+    padding: 24px
+}
+.orderd-list, .unorderd-list{
+    background-color: #FFBE0B;
+}
+.footer{
+    background-color: var(--footer);
+}
