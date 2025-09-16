@@ -32,12 +32,22 @@ body{
     list-style-type: none;
     padding: 16px 10px;
 }
-.menu > li{
+.menu li{
     color: #FB5607;
     display: inline-block;
     padding: 0 10px;
 }
+.submenu{
+    display: none;
+    position: absolute;
+    padding: 8px;
+}
 .submenu li{
+    display: block;
+}
+.submenu-about:hover .submenu{
+    display: block;
+    background-color: #9c6edd;
 }
 .main-content{
     padding: 24px
