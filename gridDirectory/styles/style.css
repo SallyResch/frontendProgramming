@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    margin: 0;
+    display: grid;
     background-color: #ffd08f;
+    grid-template-columns: auto auto;
 }
