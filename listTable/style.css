@@ -42,15 +42,23 @@ body{
 }
 .submenu-hover:hover .submenu{
     display: block;
+    border-radius: 5px;
 }
 .submenu{
     display: none;
     position: absolute;
-    padding: 5px;
+    padding: 8px;
     background-color: #9c6edd;
+    top: 100%;
 }
 .submenu li{
     display: block;
+    padding: 5px;
+}
+.submenu-childhover:hover{
+    color: #FFBE0B;
+    background-color: #000000;
+    border-radius: 5px;
 }
 .main-content{
     padding: 24px
