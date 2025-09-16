@@ -1,8 +1,13 @@
 *{
     box-sizing: border-box;
 }
-body{
+.main-content{
+    background-color: peachpuff;
+    padding: 48px 24px;
+}
+.grid-parent{
+    border: 1px solid black;
     display: grid;
-    background-color: #ffd08f;
-    grid-template-columns: auto auto;
+    grid-template-rows: 200px 250px 300px;
+    grid-template-columns: 25% 40% 35%;
 }

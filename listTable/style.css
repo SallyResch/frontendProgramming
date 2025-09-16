@@ -68,9 +68,6 @@ body{
     border-radius: 15px;
     margin: 10px 0;
 }
-.orderd-list{
-    list-style:georgian;
-}
 .week-days li{
     display: inline-block;
 }
@@ -87,9 +84,10 @@ body{
 }
 .week-days.flex-vertical div::before{
     counter-increment: days;
-    content: counter(days);
+    content: "Day:" counter(days);
     display: inline;
     padding: 10px;
+    text-decoration: underline;
 }
 .footer{
     background-color: var(--footer);
