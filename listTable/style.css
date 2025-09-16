@@ -12,7 +12,6 @@
 
 body{
     margin: 0;
-    background-color: var(--accentColor-2);
 }
 .header{
     background-color: var(--header);
@@ -27,11 +26,27 @@ body{
     font-size: 1.5rem;
     text-align: center;
 }
+.menu{
+    background-color: #8338EC;
+    margin: 0;
+    list-style-type: none;
+    padding: 16px 10px;
+}
+.menu li{
+    color: #FB5607;
+    display: inline-block;
+    padding: 0 10px;
+}
 .main-content{
     padding: 24px
 }
 .orderd-list, .unorderd-list{
-    background-color: #FFBE0B;
+    border: 3px solid var(--accentColor-1);
+    border-radius: 15px;
+    margin: 10px 0;
+}
+.orderd-list{
+    list-style:georgian;
 }
 .footer{
     background-color: var(--footer);
