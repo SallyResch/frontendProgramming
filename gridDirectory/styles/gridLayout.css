@@ -16,16 +16,22 @@ body{
 }
 .header{
     grid-area: header;
-    padding:20px;
+    padding: 20px;
     text-align: center;
-}
-.footer{
-    grid-area: footer;
-    padding: 60px;
 }
 .sidebar{
     background-color: lightcoral;
+    text-align: center;
+}
+.menu-item{
+    padding: 10px 0;
 }
 .main-content{
     background-color: peachpuff;
 }
+.footer{
+    grid-area: footer;
+    padding: 20px;
+    text-align: end;
+}
+
