@@ -92,7 +92,7 @@ li.submenu-hover:hover{
     background-color: #F15BB5;
     padding: 30px;
     display: flex;
-    justify-content: end;
+    justify-content: space-evenly;
 }
 .logo{
     width: 60px;
