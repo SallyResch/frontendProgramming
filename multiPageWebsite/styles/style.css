@@ -3,7 +3,7 @@
 }
 body{
     margin: 0;
-    height: 100vh;
+    height: 100%;
 }
 .header{
     display: flex;
@@ -60,20 +60,15 @@ li.submenu-hover:hover{
     border-radius: 5px;
 }
 .main{
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .list-keywords{
     display: flex;
-    flex-flow: column wrap;
-    height: 30%;
-}
-.list-keywords.team{
-    display: flex;
-    flex-flow: row;
-    height: 25%;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 50%;
 }
 .list-keywords > div{
     display: flex;
@@ -87,6 +82,7 @@ li.submenu-hover:hover{
     padding: 10px;
     margin: 15px;
 }
+
 .list-keywords.team > div{
     background-color: #00F5D4;
 }
