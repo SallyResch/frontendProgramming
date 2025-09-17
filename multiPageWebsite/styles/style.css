@@ -3,4 +3,61 @@
 }
 body{
     margin: 0;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #000000;
+}
+.header__title{
+    color: #FB5607;
+}
+.menu{
+    margin: 0;
+    list-style-type: none;
+    padding: 16px 10px;
+}
+.menu li{
+    color: #FB5607;
+    display: inline-block;
+    padding: 0 10px;
+}
+.menu a{
+    color: #FB5607;
+    text-decoration: none;
+}
+.submenu-hover{
+    position: relative;
+}
+.submenu-hover:hover .submenu{
+    display: block;
+    border-radius: 5px;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    padding: 8px;
+    background-color: #9c6edd;
+    top: 100%;
+}
+.submenu li{
+    display: block;
+    padding: 5px;
+}
+.submenu-childhover:hover{
+    color: #FFBE0B;
+    background-color: #000000;
+    border-radius: 5px;
+}
+.main{
+    height: 100%;
+}
+.footer{
+    background-color: #FB5607;
+    padding: 30px;
+    display: flex;
+    justify-content: end;
 }

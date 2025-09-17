@@ -1,7 +1,7 @@
 GODKÄNT:
-At last 3 separate pages including a contact page.
+At least 3 separate pages including a contact page.
 
-A header with a page title on every page
+A header with a page title on every page 
 
 A navigational menu on every page with links to the other pages
 
