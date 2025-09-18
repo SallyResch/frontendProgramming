@@ -25,7 +25,7 @@ body{
     align-items: center;
 }
 .light{
-    background-color: #faebd7;
+    background-color: #000000;
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -37,38 +37,38 @@ body{
     background-color: red;
     animation-name: blinkingRed;
     animation-duration: 1s;
-    animation-iteration-count: 4;
+    animation-iteration-count: 1;
 }
 .light.yellow{
     background-color: yellow;
     animation-name: blinkingYellow;
     animation-duration: 1s;
-    animation-iteration-count: 4;
+    animation-iteration-count: 2;
 }
 .light.green{
     background-color: green;
     animation-name: blinkingGreen;
     animation-duration: 1s;
-    animation-iteration-count: 4;
+    animation-iteration-count: 3;
 }
 
 @keyframes blinkingRed{
     from{
-        background-color: #faebd7;
+        background-color: #000000;
     } to{ background-color: red;
         
     }
 }
 @keyframes blinkingYellow{
     from{
-        background-color: #f4f4f4;
+        background-color: #000000;
     } to{ background-color: yellow;
         
     }
 }
 @keyframes blinkingGreen{
     from{
-        background-color: #faebd7;
+        background-color: #000000;
     } to{ background-color: green;
         
     }
