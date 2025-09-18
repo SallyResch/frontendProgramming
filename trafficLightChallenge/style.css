@@ -25,20 +25,53 @@ body{
     align-items: center;
 }
 .light{
-    background-color: antiquewhite;
+    background-color: #faebd7;
     height: 100px;
     width: 100px;
     border-radius: 50%;
     border: 2px solid black;
+
 }
+
 .light.red{
     background-color: red;
+    animation-name: blinkingRed;
+    animation-duration: 1s;
+    animation-iteration-count: 4;
 }
 .light.yellow{
     background-color: yellow;
+    animation-name: blinkingYellow;
+    animation-duration: 1s;
+    animation-iteration-count: 4;
 }
 .light.green{
     background-color: green;
+    animation-name: blinkingGreen;
+    animation-duration: 1s;
+    animation-iteration-count: 4;
+}
+
+@keyframes blinkingRed{
+    from{
+        background-color: #faebd7;
+    } to{ background-color: red;
+        
+    }
+}
+@keyframes blinkingYellow{
+    from{
+        background-color: #f4f4f4;
+    } to{ background-color: yellow;
+        
+    }
+}
+@keyframes blinkingGreen{
+    from{
+        background-color: #faebd7;
+    } to{ background-color: green;
+        
+    }
 }
 
 
