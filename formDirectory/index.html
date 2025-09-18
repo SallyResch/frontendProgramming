@@ -19,6 +19,49 @@
                 Tell us a little bit about yourself
             </h4>
         </div>
+        <form action="mailto:sallyresch27@gmail.com" method="POST" enctype="text/plain" class="user-information">
+            <fieldset>
+                <legend>UserName</legend>
+                <div class="user-input">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" required placeholder="First Name...">
+                </div>
+                <div class="user-input">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" required placeholder="Last Name...">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Information</legend>
+                <div class="user-input">
+                    <label for="description">Your Information</label>
+                    <textarea class="description" name="description" id="description"></textarea>
+                </div>
+                <div class="user-input-checkbox">
+                    <label for="ok">Click to agree</label>
+                    <input type="checkbox" name="ok" id="ok" value="ok" required>
+                </div>
+                <div class="user-input-radio">
+                    <input type="radio" name="maybe" id="maybe" value="maybe" required>
+                    <label for="maybe">Maybe</label>
+                    <input type="radio" name="maybe" id="maybe" value="yes" required>
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="maybe" id="maybe" value="no" required>
+                    <label for="no">No</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Choose country</legend>
+                <label for="country">Countrys:</label>
+                <select name="country" id="country">
+                    <option>countrys</option>
+                    <option value="sweden">Sweden</option>
+                    <option value="germany">Germany</option>
+                    <option value="japan">Japan</option>
+                </select>
+            </fieldset>
+            <button class="submit-button" type="submit">Send info</button>
+        </form>
     </main>
     <footer class="footer">
         <p>&copy; Sally Resch</p>

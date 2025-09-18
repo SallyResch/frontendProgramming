@@ -9,6 +9,7 @@ body{
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .header{
     padding: 30px;
@@ -27,10 +28,44 @@ body{
     background-color: #e9cd15;
     border: 1px solid black;
     border-radius: 15px;
+    padding: 16px;
     text-align: center;
+
         h2{
             font-size: 2rem;
         }
+}
+fieldset{
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.user-information{
+    margin-top: 30px;
+    background-color: #e9cd15;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 16px;
+}
+.user-input{
+    margin: 15px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.user-input-checkbox{
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+.description{
+    height: 200px;
+    width: 250px;
+}
+.submit-button{
+    cursor: pointer;
+}
+.submit-button:hover{
+    background-color: black;
+    color: white;
 }
 .footer{
     background-color: #e9cd15;
