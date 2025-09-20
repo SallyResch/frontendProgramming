@@ -32,7 +32,6 @@ body{
     border: 2px solid black;
 
 }
-
 .light.red{
     background-color: red;
     animation-name: blinkingRed;
