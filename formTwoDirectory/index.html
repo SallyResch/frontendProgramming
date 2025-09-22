@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form 2</title>
+</head>
+<body>
+    <h1>Let me get to know you better</h1>
+    <div class="form">
+        <form action="mailto:sallyresch27@gmail.com" method="POST" enctype="text/plain" class="user-information">
+            <fieldset>
+                <legend>Your Favourite Things</legend>
+                <div class="user-input">
+                    <label for="movie">Whats your favourite movie?</label>
+                    <input type="text" name="movie" id="movie" required placeholder="favorite movie...">
+                </div>
+                <div class="user-input">
+                    <label for="music">Whats your favourite music?</label>
+                    <input type="text" name="music" id="music" required placeholder="favorite music...">
+                </div>
+                <div class="user-input">
+                    <label for="food">Whats your favourite food?</label>
+                    <input type="text" name="food" id="food" required placeholder="favorite food...">
+                </div>
+            </fieldset>
+            <button class="submit-button" type="submit">Send info</button>
+        </form>
+    </div>
+</body>
+</html>

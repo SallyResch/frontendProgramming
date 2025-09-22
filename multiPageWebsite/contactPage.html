@@ -17,12 +17,7 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li class="submenu-hover">
-                    About
-                    <ul class="submenu">
-                        <li class="submenu-childhover">Me</li>
-                        <li class="submenu-childhover">Work</li>
-                        <li class="submenu-childhover">Other</li>
-                    </ul>
+                   <a href="about.html">About</a>
                 </li>
                 <li>
                     <a href="contactPage.html">Contact</a>
@@ -30,11 +25,31 @@
             </ul>
         </nav>
     </header>
-    <div class="main"></div>
+    <div class="main">
+        <h2>Let me get to know you better</h2>
+        <form action="mailto:sallyresch27@gmail.com" method="POST" enctype="text/plain" class="user-information">
+            <fieldset>
+                <legend>Users favourite things:</legend>
+                <div class="user-input">
+                    <label for="favourite-music">Favourite Music</label>
+                    <input type="text" name="favourite-music" id="favourite-music" required placeholder="Favourite Music">
+                </div>
+                <div class="user-input">
+                    <label for="favourite-movie">Favourite Movie</label>
+                    <input type="text" name="favourite-movie" id="favourite-movie" required placeholder="Favourite Movie">
+                </div>
+                <div class="user-input">
+                    <label for="favourite-food">Favourite Food</label>
+                    <input type="text" name="favourite-food" id="favourite-food" required placeholder="Favourite Food">
+                </div>
+            </fieldset>
+        </form>
+    </div>
     <footer class="footer">
         <h4 class="footer__creatorName">
             Sally Resch
         </h4>
+        <img class="logo" src="./SillyGoofyclipped.png" alt="SillySallyLogo">
     </footer>
 </body>
 </html>
