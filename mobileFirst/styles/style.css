@@ -40,10 +40,31 @@ body{
     background-image: url("../fallingleaves.jpg");
     background-size: 100% auto;
     background-attachment: fixed;
+    background-position: center;
 }
 .footer{
     background-color: #5F0F40;
     color:#FB8B24;
     padding: 24px;
     text-align: center;
+}
+
+@media screen and (min-width:768px) {
+    .header__title{
+        font-size: 4rem;
+    }
+    .main{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .square{
+        max-width: 350px;
+    }
+    .square.travel{
+        min-width: 350px;
+        max-height: 350px;
+        min-height: 350px;
+    }
 }
