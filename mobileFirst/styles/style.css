@@ -38,6 +38,8 @@ body{
 }
 .square.travel{
     background-image: url("../fallingleaves.jpg");
+    background-size: 100% auto;
+    background-attachment: fixed;
 }
 .footer{
     background-color: #5F0F40;
