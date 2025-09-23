@@ -27,13 +27,10 @@ body{
 }
 .square{
     background-color: #E36414;
-    height: 250px;
     margin-bottom: 24px;
+    min-height: 250px;
     border-radius: 10px;
-}
-.square:nth-last-of-type{
-    margin: 0;
-    padding: 0;
+    padding: 10px 24px;
 }
 .footer{
     background-color: #5F0F40;
