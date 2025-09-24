@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <title>Parking Hub</title>
 </head>
 <body>
@@ -26,6 +27,40 @@
         </nav>
     </header>
     <main class="main">
+        <form action="mailto:sallyresch27@gmail.com" method="POST" enctype="text/plain" class="user-information">
+            <fieldset>
+                <legend>UserName</legend>
+                <div class="user-input">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" required placeholder="First Name...">
+                </div>
+                <div class="user-input">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" required placeholder="Last Name...">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Choose cartype</legend>
+                <label for="cartype">Cartypes:</label>
+                <select name="cartype" id="cartype">
+                    <option value="electric">Electric</option>
+                    <option value="hybrid">Hybrid</option>
+                    <option value="Regular Vehicle">Regular Vehicle</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Information</legend>
+                <div class="user-input">
+                    <label for="description">Your Information</label>
+                    <textarea class="description" name="description" id="description"></textarea>
+                </div>
+                <div class="user-input-checkbox">
+                    <label for="ok">Click to agree</label>
+                    <input type="checkbox" name="ok" id="ok" value="ok" required>
+                </div>
+            </fieldset>
+            <button class="submit-button" type="submit">Send info</button>
+        </form>
     </main>
     <footer class="footer">
         <p class="footer__title">&copy; Sally Resch</p>
