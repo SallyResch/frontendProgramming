@@ -35,11 +35,17 @@ body{
     list-style: none;
 }
 .menu__item{
-    background-color: #E36414;
+    background-color: var(--background-color);
     border-radius: 5px;
-    padding: 10px;
+    border: 2px solid var(--text-color2);
     margin: 15px 25px;
     margin-bottom: 0;
+    padding: 10px;
+}
+.menu__link{
+    text-decoration: none;
+    color: var(--text-color1);
+    font-weight: bold;
 }
 .main{
     flex-grow: 1;
