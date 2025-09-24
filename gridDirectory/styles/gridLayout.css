@@ -10,6 +10,7 @@ body{
     "header header"
     ". ."
     "footer footer ";
+    background-color: peachpuff;
 }
 .header, .footer{
     background-color: aquamarine;
@@ -22,6 +23,12 @@ body{
 .sidebar{
     background-color: lightcoral;
     text-align: center;
+    position: relative;
+    left: -80%;
+    transition: ease-in 1s;
+}
+.sidebar:hover{
+    left: 0;
 }
 .menu-item{
     padding: 10px 0;

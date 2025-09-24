@@ -1,0 +1,44 @@
+:root{
+    --midnight-black: #02010A;
+    --midnight-blue: #04052E;
+    --midnight-purple: #140152;
+    --dark-purple: #140152;
+    --dark-blue: #0D00A4;
+    --text-color: #9fc1ff;
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100vw;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--midnight-black);
+    font-family: "Quicksand", Italic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.header{
+    background-color: var(--dark-blue);
+    width: 100%;
+}
+.header__title{
+    margin:0;
+    padding: 24px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--midnight-purple);
+    width: 70%;
+    margin: 30px;
+}
+
