@@ -1,0 +1,37 @@
+GODKÄNT:
+At least 3 separate pages including a contact page.
+
+A header with a page title on every page 
+
+A navigational menu on every page with links to the other pages
+
+A contact form where a user must enter their email and a message before submitting the form by clicking a button. The fields are 'required' - the form should not be able to be submitted until the required fields are filled in
+
+When the form is submitted:
+ my email client should open up with the "mailto:" address as the address the email will be sent to.
+the user's email and message should be added to the email body
+
+Responsive web design - the site must not break on different screen sizes. For this assignment tablet portrait can look the same as mobile, tablet landscape can be the same as desktop. Any small visual 'bug' on tablet landscape will be ignored from a grading perspective
+
+1 or more external CSS files
+
+VÄL GODKÄNT:
+complete all the above and the following:
+ 
+An indication in the menu of which page the user is currently viewing
+
+An image on every page. 
+Images must be responsive.
+At least one background image
+
+Responsive Web design
+ a media query must be used,
+either a flex box or grid (or both) used to make the site responsive. 
+Note: It's possible to make a responsive website without using these CSS features but they are required for a VG grade because they are used daily in web development. You have to demonstrate that you know how to use them.
+
+Separate and semantic CSS & HTML files. 
+While it is tempting (and acceptable) to create a CSS file for each page, if certain properties and values are reused they should be moved into common files. It is entirely acceptable to have more CSS files than HTML.
+
+Semantic naming of elements - it's okay not to be perfect, I just want to see you've thought about the concept and tried to apply some meaning to what you are building
+
+Consistent code style - again, it does not have to be perfect but you have to show you understand code style and have applied some consistent style
