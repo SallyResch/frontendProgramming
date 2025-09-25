@@ -13,7 +13,6 @@ html{
 }
 body{
     background-color: var(--background-color);
-    color: var(--text-color1);
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -23,6 +22,7 @@ body{
     background-color: var(--header-color);
     padding: 24px;
     width: 100%;
+    color: var(--text-color1);
 }
 .header__title{
     margin: 0;
@@ -43,16 +43,24 @@ body{
     margin-bottom: 0;
     padding: 10px;
 }
+.menu__item:hover{
+    background-color: var(--text-color2);
+    border: 2px solid var(--text-color1);
+}
 .menu__link{
     text-decoration: none;
     color: var(--text-color1);
     font-weight: bold;
+}
+.menu__link:hover{
+    color: var(--background-color);
 }
 .main{
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
+        color: var(--text-color1);
 }
 .main__images{
     display: flex;
@@ -72,6 +80,7 @@ body{
     height: auto;
 }
 .footer{
+    color: var(--text-color1);
     background-color: var(--header-color);
     padding: 24px;
     text-align: center;
