@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/contact.css">
-    <title>Parking Hub</title>
+    <title>FlowPark - Contact</title>
 </head>
 <body>
     <header class="header">
         <h1 class="header__title">
-            Parking Hub - Contact
+            FlowPark - Contact
         </h1>
         <nav class="header__menu">
             <div class="menu">
@@ -28,7 +28,7 @@
     </header>
     <main class="main">
         <h2 class="main__title">Contact us</h2>
-        <form action="mailto:sallyresch27@gmail.com" method="POST" enctype="text/plain" class="user-information">
+        <form action="mailto:sallyresch27@gmail.com" method="GET" enctype="text/plain" class="user-information">
             <fieldset>
                 <legend>UserName</legend>
                 <div class="user-input">
@@ -39,20 +39,24 @@
                     <label for="last-name">Last Name</label>
                     <input type="text" name="last-name" id="last-name" required placeholder="Last Name...">
                 </div>
+                <div class="user-input">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required placeholder="user@email.com">
+                </div>
             </fieldset>
             <fieldset>
-                <legend>Choose cartype</legend>
-                <label for="cartype">Cartypes:</label>
+                <legend>Choose Vehicle Type</legend>
+                <label for="cartype">Vehicles:</label>
                 <select name="cartype" id="cartype">
-                    <option value="electric">Electric</option>
-                    <option value="hybrid">Hybrid</option>
-                    <option value="Regular Vehicle">Regular Vehicle</option>
+                    <option value="car">Car</option>
+                    <option value="bicycle">Bicycle</option>
+                    <option value="motorcycle">Motorcycle</option>
                 </select>
             </fieldset>
             <fieldset>
-                <legend>Information</legend>
+                <legend>Message </legend>
                 <div class="user-input">
-                    <label for="description">Your Information</label>
+                    <label for="description">Your message</label>
                     <textarea class="description" name="description" id="description"></textarea>
                 </div>
                 <div class="user-input-checkbox">

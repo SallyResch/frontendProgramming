@@ -59,15 +59,15 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
-img.image__car{
+.image__car{
     width: 30%;
     height: auto;
 }
-img.image__bicycle{
+.image__bicycle{
     width: 20%;
     height: auto;
 }
-img.image__motorcycle{
+.image__motorcycle{
     width: 20%;
     height: auto;
 }

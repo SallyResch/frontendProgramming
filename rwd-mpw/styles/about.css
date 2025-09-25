@@ -1,1 +1,21 @@
+:root{
+    --background-color: #0F4C5C;
+    --background-color-light: #26b0d2;
+    --header-color: #5F0F40;
+    --text-color1: #FB8B24;
+    --text-color2: #E36414;
+    --text-color3: #9A031E;
+}
+.main-content{
+    background-color: #E36414;
+    color: #0F4C5C;
+    width: 70%;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 15px;
+    border: 5px solid var(--text-color1);
+}
+.main__header{
+    text-align: center;
+}
 
