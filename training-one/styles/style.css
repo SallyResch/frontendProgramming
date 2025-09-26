@@ -6,8 +6,13 @@ html{
 }
 body{
     height: 100%;
-    background-color: #CCFF33;
     display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     margin: 0;
+    row-gap: 10px;
 }
-
+.row-dropdown{
+    border: 1px solid black;
+    background-color: aquamarine;
+}
