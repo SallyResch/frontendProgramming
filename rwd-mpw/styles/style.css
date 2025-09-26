@@ -59,22 +59,28 @@ body{
     align-items: center;
         color: var(--text-color1);
 }
+.main__items{
+    margin: 0 32px;
+}
+.main__item{
+    font-size: larger;
+}
 .main__images{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.image__car{
+.image{
+    height: auto;
+}
+.image.car{
     width: 30%;
-    height: auto;
 }
-.image__bicycle{
+.image.bicycle{
     width: 20%;
-    height: auto;
 }
-.image__motorcycle{
+.image.motorcycle{
     width: 20%;
-    height: auto;
 }
 .footer{
     color: var(--text-color1);
@@ -82,4 +88,22 @@ body{
     padding: 24px;
     text-align: center;
     width: 100%;
+}
+@media only screen and (max-width: 600px){
+    .main__images{
+        display: flex;
+        flex-direction: column;
+    }
+    .image{
+        padding-bottom: 24px;
+    }
+    .image.car{
+        width: 70%;
+    }
+    .image.bicycle{
+        width: 50%;
+    }
+    .image.motorcycle{
+        width: 50%;
+    }
 }
