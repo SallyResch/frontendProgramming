@@ -1,1 +1,25 @@
-
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100vh;
+}
+body{
+    margin: 0;
+}
+nav{
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 46px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.letterS:hover{
+    transform:rotateY(180deg);
+    transition: 2s letterS;
+}
