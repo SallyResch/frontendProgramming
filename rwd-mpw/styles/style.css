@@ -72,6 +72,7 @@ body{
 }
 .image{
     height: auto;
+    margin-bottom: 1em;
 }
 .image.car{
     width: 30%;
