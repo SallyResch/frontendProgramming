@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>FrontendProgramming</title>
+    <title>Home ()= Sally Resch</title>
 </head>
-<body>
+<body class="page">
     <div class="main-center">
-        <h1>Frontend Programming</h1>
-        <p>Come on in</p>
+        <div class="programmer-div">Sally Resch</div>
+        <h1 class="header-title">Frontend Programming</h1>
+        <input type="button" value="Come on in" onclick="goToProjects()">
     </div>
+    <script>
+        function goToProjects() {
+        const mainDiv = document.querySelector('body');
+        mainDiv.classList.add('rotate-page');
+        
+        setTimeout(() => {
+            window.location.href = 'overview.html';
+        }, 3000); // match your 3s transition
+        }
+    </script>
 </body>
 </html>
