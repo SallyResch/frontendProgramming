@@ -1,0 +1,47 @@
+:root {
+  --red-color1: #FF595E;
+  --yellow-color: #FFCA3A;
+  --green-color: #8AC926;
+  --blue-color2: #1982C4;
+  --purple-color: #6A4C93;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: var(--yellow-color);
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  width: 90%;
+  max-width: 1000px;
+  padding: 1rem;
+}
+.grid-child {
+  aspect-ratio: 1 / 1;
+  background-color: var(--purple-color);
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.grid-child:hover {
+  transform: scale(1.05);
+  background-color: var(--blue-color2);
+  cursor: pointer;
+}
+.project-link{
+  font-size: 24px;
+  color:black;
+}
