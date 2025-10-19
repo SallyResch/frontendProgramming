@@ -9,6 +9,7 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   background-color: var(--yellow-color);
@@ -18,14 +19,16 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1rem;
   width: 90%;
   max-width: 1000px;
   padding: 1rem;
 }
+
 .grid-child {
   aspect-ratio: 1 / 1;
   background-color: var(--purple-color);
@@ -36,12 +39,14 @@ body {
   align-items: center;
   text-align: center;
 }
+
 .grid-child:hover {
   transform: scale(1.05);
   background-color: var(--blue-color2);
   cursor: pointer;
 }
-.project-link{
+
+.project-link {
   font-size: 24px;
-  color:black;
+  color: black;
 }
