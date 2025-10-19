@@ -1,17 +1,20 @@
-:root{
-    --red-color1: #FF595E;
-    --yellow-color: #FFCA3A;
-    --green-color: #8AC926;
-    --blue-color2: #1982C4;
-    --purple-color: #6A4C93;
+:root {
+  --red-color1: #FF595E;
+  --yellow-color: #FFCA3A;
+  --green-color: #8AC926;
+  --blue-color2: #1982C4;
+  --purple-color: #6A4C93;
 }
-*{
-    box-sizing: border-box;
+
+* {
+  box-sizing: border-box;
 }
-html{
-    height: 100vh;
+
+html {
+  height: 100vh;
 }
-body{
+
+body {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -20,20 +23,24 @@ body{
   background-color: var(--yellow-color);
   color: var(--purple-color);
   font-family: Arial, Helvetica, sans-serif;
-  transition: transform 3s ease-in-out;
-  transform-origin: center;
 }
-.main-center{
+
+.main-center {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-body.rotate-page{
-  transform: rotateY(180deg);
-}
-.invitation-paragraph{
+
+.invitation-paragraph {
   font-size: 40px;
 }
-@media screen and (min-width:769px) {
 
+.button {
+  background-color: var(--green-color);
+  padding: 10px;
+  color: black;
+  border-radius: 5px;
+  border: 2px solid var(--purple-color);
 }
+
+@media screen and (min-width:769px) {}
