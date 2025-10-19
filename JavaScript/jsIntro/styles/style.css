@@ -17,6 +17,7 @@ body {
 .header {
   background-color: lightsalmon;
   padding: 24px;
+  text-align: center;
 }
 
 .header-title {
