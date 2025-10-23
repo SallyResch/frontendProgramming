@@ -30,10 +30,6 @@ body {
   align-items: center;
 }
 
-.invitation-paragraph {
-  font-size: 40px;
-}
-
 .button {
   display: flex;
   align-content: center;
