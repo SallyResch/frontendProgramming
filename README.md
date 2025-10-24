@@ -11,16 +11,6 @@ This repo includes a variety of assignments and projects related to frontend dev
 
 HTML, CSS, and JavaScript fundamentals
 
-React and component-based architecture
-
-UX/UI design practices
-
-API integration and asynchronous programming
-
-Version control with Git and GitHub
-
-Team collaboration and agile workflows
-
 Each folder or project demonstrates specific skills or topics covered throughout the program.
 
 🛠️ Tech Stack
