@@ -1,4 +1,4 @@
-let teams = ["Arsenal", "Aston Villa", "Barnsley", "Birmingham City", "Blackbern"]
+let teams = ["Arsenal", "Aston Villa", "Barnsley", "Birmingham City", "Blackbern", "Liverpool"]
 
 let homeTeam = teams[Math.floor(Math.random() * teams.length)];
 
@@ -39,6 +39,17 @@ for (let i = 0; i <= 20; i++) {
       break;
     case randomFootballEvent === 2 || randomFootballEvent === 3:
       console.log(`GOOOAAAAL for ${teamInPossession}`)
+      break;
+    case randomFootballEvent >= 4 && randomFootballEvent <= 7:
+      console.log(`Ball goes out of play for ${teamInPossession}`);
+      break;
+    case randomFootballEvent >= 8 && randomFootballEvent <= 19:
+      console.log(`${teamInPossession} loses posession`);
+      teamInPossession = teamInPossession === homeTeam ? awayTeam : homeTeam;
+      console.log(`${teamInPossession} now has the ball`);
+      break;
+    case randomFootballEvent === 20:
+      console.log(`Penalty for ${teamInPossession}!`);
       break;
     default:
       break;
