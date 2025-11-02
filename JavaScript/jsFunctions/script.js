@@ -34,15 +34,43 @@ const exercise5 = (name = "Alex", lastName) => {
 exercise5();
 
 //Exercise 6
-//document.getElementById("exercise6").innerHTML = `Here i am`;
-//Exercise 7
-//document.getElementById("exercise7").innerHTML = `Here i am`;
-//Exercise 8
-
-const exercise8 = () => {
-    let callExercise5 = exercise5();
-    let newParagraph = document.createElement("p");
-    newParagraph.textContent = callExercise5
-    document.getElementById("exercise8").appendChild(newParagraph);
-    return callExercise5()
+function addParagraph() {
+    //hämta elementet som paragraphen ska in i
+    const div = document.getElementById("exercise6");
+    //skapa paragraphen som ska sättas in i elementet ovan
+    const p = document.createElement("p");
+    //Säger vad som ska sättas in i paragraphen i en string:
+    p.textContent = "Here I am!";
+    //Sätter in paragraphen i elementet vi hämtat från början
+    div.appendChild(p);
 }
+//Anropa funktionen för att få in den i elementet:
+addParagraph();
+
+//Exercise 7
+const addParagraph2 = (name) => {
+    //hämta elementet som paragraphen ska in i
+    const div = document.getElementById("exercise7");
+    //skapa paragraphen som ska sättas in i elementet ovan
+    const p = document.createElement("p");
+    //Säger vad som ska sättas in i paragraphen i en string:
+    p.textContent = `Here I am! My name is ${name}`;
+    //Sätter in paragraphen i elementet vi hämtat från början
+    div.appendChild(p);
+}
+//Anropa funktionen för att få in den i elementet:
+addParagraph2("Sally");
+
+//Exercise 8
+const addParagraph3 = () => {
+    //hämta elementet som paragraphen ska in i
+    const div = document.getElementById("exercise8");
+    //skapa paragraphen som ska sättas in i elementet ovan
+    const p = document.createElement("p");
+    //Säger vad som ska sättas in i paragraphen i en string:
+    p.textContent = exercise5();
+    //Sätter in paragraphen i elementet vi hämtat från början
+    div.appendChild(p);
+}
+//Anropa funktionen för att få in den i elementet:
+addParagraph3();
