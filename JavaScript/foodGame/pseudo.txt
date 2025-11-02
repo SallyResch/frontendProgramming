@@ -1,0 +1,21 @@
+FOOD GAME:
+
+One or more constants
+
+One or more arrays
+
+A random selection of an array index
+
+A dynamic assignment of a variable (ie using prompt)
+
+One or more while loops
+
+One or more for loops
+
+Comparison with user entered data
+
+A final won/lost message. User input MUST be the determining factor in whether the user wins or loses
+
+An example of a Godkänt game would be sten, sax, påse vs the computer in a best of 5 competition. 
+
+
