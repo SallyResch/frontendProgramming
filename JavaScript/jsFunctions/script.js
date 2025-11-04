@@ -28,8 +28,7 @@ const exercise5 = (name = "Alex", lastName) => {
     if (!lastName) {
         lastName = name + "sson";
     }
-    console.log("EXERCISE 5")
-    console.log(`Hi! My name is ${name} ${lastName}`);
+    return (`Hi! My name is ${name} ${lastName}`);
 }
 exercise5();
 
@@ -73,4 +72,4 @@ const addParagraph3 = () => {
     div.appendChild(p);
 }
 //Anropa funktionen för att få in den i elementet:
-addParagraph3();
+addParagraph3("Benjy", "Smith");
