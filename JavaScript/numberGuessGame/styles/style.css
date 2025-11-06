@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+body {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input[type="number"],
+.guessSubmit {
+  width: 100px;
+}
+
+.lastResult {
+  color: white;
+  padding: 3px;
+}

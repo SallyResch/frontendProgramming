@@ -1,0 +1,75 @@
+// Don't touch this array
+let names = ["Alex", "Sam", "John", "Lucia", "Marco", "Kristina"];
+
+// Your code here
+//Exercise 1
+const exercise1 = () => {
+    console.log("EXERCISE 1")
+    console.log(`Hi! My name is Alex`)
+}
+exercise1();
+
+//Exercise 2
+const exercise2 = (name) => {
+    return `Exercise 2` + ` Hi! My name is ${name}`;
+};
+console.log(exercise2(names[0]));
+
+//Exercise 3
+const exercise3 = (name = "Alex") => console.log(`Hi! My name is ${name}`);
+exercise3();
+
+//Exercise 4
+const exercise4 = (name = "Alex", lastName) => console.log(`Hi! My name is ${name} ${lastName}`);
+exercise4("Sally", "Resch");
+
+//Exercise 5
+const exercise5 = (name = "Alex", lastName) => {
+    if (!lastName) {
+        lastName = name + "sson";
+    }
+    return (`Hi! My name is ${name} ${lastName}`);
+}
+exercise5();
+
+//Exercise 6
+function addParagraph() {
+    //hämta elementet som paragraphen ska in i
+    const div = document.getElementById("exercise6");
+    //skapa paragraphen som ska sättas in i elementet ovan
+    const p = document.createElement("p");
+    //Säger vad som ska sättas in i paragraphen i en string:
+    p.textContent = "Here I am!";
+    //Sätter in paragraphen i elementet vi hämtat från början
+    div.appendChild(p);
+}
+//Anropa funktionen för att få in den i elementet:
+addParagraph();
+
+//Exercise 7
+const addParagraph2 = (name) => {
+    //hämta elementet som paragraphen ska in i
+    const div = document.getElementById("exercise7");
+    //skapa paragraphen som ska sättas in i elementet ovan
+    const p = document.createElement("p");
+    //Säger vad som ska sättas in i paragraphen i en string:
+    p.textContent = `Here I am! My name is ${name}`;
+    //Sätter in paragraphen i elementet vi hämtat från början
+    div.appendChild(p);
+}
+//Anropa funktionen för att få in den i elementet:
+addParagraph2("Sally");
+
+//Exercise 8
+const addParagraph3 = () => {
+    //hämta elementet som paragraphen ska in i
+    const div = document.getElementById("exercise8");
+    //skapa paragraphen som ska sättas in i elementet ovan
+    const p = document.createElement("p");
+    //Säger vad som ska sättas in i paragraphen i en string:
+    p.textContent = exercise5();
+    //Sätter in paragraphen i elementet vi hämtat från början
+    div.appendChild(p);
+}
+//Anropa funktionen för att få in den i elementet:
+addParagraph3("Benjy", "Smith");
