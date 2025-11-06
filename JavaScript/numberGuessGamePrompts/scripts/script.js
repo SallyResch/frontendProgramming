@@ -1,4 +1,4 @@
-alert("GUESS THE NUMBER GAME:\nGuess a number between 1 and 100\nYou have 10 attempts to succeed!\nGood Luck!");
+alert("GUESS THE NUMBER GAME:\nGuess a number between 1 and 100\nYou have 10 attempts to succeed!\nGood Luck! Oh, you also have 10 points and if that goes down to 0 you lose, mouhahaha");
 
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 //let guessCount = 1;
