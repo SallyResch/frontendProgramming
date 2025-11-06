@@ -8,14 +8,19 @@ html {
 }
 
 body {
-  width: 50%;
-  max-width: 800px;
-  min-width: 480px;
+  width: 75%;
   margin: 0 auto;
 }
 
-.form input[type="number"] {
-  width: 200px;
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input[type="number"],
+.guessSubmit {
+  width: 100px;
 }
 
 .lastResult {
