@@ -1,15 +1,56 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    height: 100vh;
+  height: 100vh;
 }
 
 body {
-    text-align: center;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.tabs {
+  background-color: black;
+  color: aquamarine;
+  padding: 20px;
+}
+
+.tab {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px white;
+}
+
+.tab:hover {
+  background-color: aquamarine;
+  color: black;
 }
 
 .events {
-    display: none;
+  display: none;
+}
+
+@media screen and (max-width:768px) {
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width:769px) {
+  .tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
