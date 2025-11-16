@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 html {
@@ -7,7 +8,6 @@ html {
 }
 
 body {
-  margin: 0;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -18,6 +18,9 @@ body {
 }
 
 .tabs {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
   background-color: black;
   color: aquamarine;
   padding: 20px;
@@ -35,16 +38,38 @@ body {
   color: black;
 }
 
-.events {
+.main-content {
+  flex-grow: 1;
+  margin: 0 50%;
+}
+
+.event {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: 0.3s;
   display: none;
 }
 
-@media screen and (max-width:768px) {
-  .tabs {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }
+.event.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tab.active {
+  background-color: aquamarine;
+  color: black;
+  box-shadow: 2px 2px 8px aquamarine;
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.main-content-section {
+  display: none;
+}
+
+.main-content-section.show {
+  display: block;
 }
 
 @media screen and (min-width:769px) {
@@ -52,5 +77,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    color: aquamarine;
+    padding: 20px;
   }
 }
