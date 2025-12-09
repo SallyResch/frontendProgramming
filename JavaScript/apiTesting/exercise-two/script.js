@@ -86,3 +86,10 @@ fetchChosenPokemonData();
 
 // TODO: Create a button click handler that asks the user for input
 // and calls your reusable function
+
+//Roulett hjul:
+//https://codepen.io/barney-parker/pen/OPyYqy
+//https://codepen.io/onetuskedmarios/pen/OJxJKEP
+
+//Mouse animations
+//https://codepen.io/leimapapa/pen/XWGMrvo
