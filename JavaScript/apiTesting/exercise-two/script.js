@@ -1,5 +1,5 @@
 const image = document.querySelector(".image");
-const name = document.querySelector(".name");
+const pokemonName = document.querySelector(".name");
 const element = document.querySelector(".element");
 const weight = document.querySelector(".weight");
 const height = document.querySelector(".height");
@@ -48,7 +48,13 @@ const fetchChosenPokemonData = async () => {
   const data = await response.json();
   // TODO: Log the full data to explore the structure
   console.log(data);
-
+  console.log(data.stats[1].base_stat);
+  image.setAttribute("src", data.sprites.front_shiny);
+  pokemonName.textContent = data.name;
+  weight.textContent = data.weight;
+  height.textContent = data.height;
+  types.textContent = data.types[0].type.name;
+  element.textContent = data.stats[1].base_stat;
   // HINT: Check what properties exist for sprites, types, weight, height, etc.
 
  } catch (error) {
@@ -67,6 +73,8 @@ fetchChosenPokemonData();
 // After exploring the data above, update the HTML table
 // HINTS:
 // - For the image: set `image.src`
+//dogPicture.setAttribute("src", data.message);
+
 // - For text fields: use `textContent` or `innerHTML`
 // - If a property is an array (like types), you can use `.map()` and `.join()`
 
