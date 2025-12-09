@@ -1,9 +1,9 @@
-const image = document.getElementById("image");
-const name = document.getElementById("name");
-const element = document.getElementById("element");
-const weight = document.getElementById("weight");
-const height = document.getElementById("height");
-const types = document.getElementById("types");
+const image = document.querySelector(".image");
+const name = document.querySelector(".name");
+const element = document.querySelector(".element");
+const weight = document.querySelector(".weight");
+const height = document.querySelector(".height");
+const types = document.querySelector(".types");
 
 const fetchPokemons = async () => {
  try {
@@ -34,10 +34,7 @@ const fetchPokemons = async () => {
   console.log("Error fetching Pokémon:", error);
  }
 };
-
 //fetchPokemons();
-
-
 
 const fetchChosenPokemonData = async () => {
  const pokemonURL = "https://pokeapi.co/api/v2/pokemon/10/";
